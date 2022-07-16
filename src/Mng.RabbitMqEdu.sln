@@ -2,7 +2,7 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mng.RabbitMqEdu.Publisher", "Mng.RabbitMqEdu.Publisher\Mng.RabbitMqEdu.Publisher.csproj", "{B9F004EC-1662-4F08-8778-F6B5BE7C76D8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mng.RabbiqMqEdu.Consumer", "Mng.RabbiqMqEdu.Consumer\Mng.RabbiqMqEdu.Consumer.csproj", "{B58024B0-B104-424F-8223-1EBF41598A13}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mng.RabbitMqEdu.Consumer", "Mng.RabbitMqEdu.Consumer\Mng.RabbitMqEdu.Consumer.csproj", "{B58024B0-B104-424F-8223-1EBF41598A13}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

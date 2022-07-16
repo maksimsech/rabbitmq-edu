@@ -1,5 +1,6 @@
 ﻿using System.Text;
 using RabbitMQ.Client;
+using RabbitMQ.Client.Events;
 
 var factory = new ConnectionFactory
 {
@@ -11,8 +12,14 @@ using var chanel = connection.CreateModel();
 
 chanel.QueueDeclare("hello", exclusive: false);
 
-const string message = "Hello World";
-var messageBytes = Encoding.UTF8.GetBytes(message);
+var consumer = new EventingBasicConsumer(chanel);
 
-chanel.BasicPublish("", "hello", null, messageBytes);
+consumer.Received += (_, eventArgs) =>
+{
+    var body = Encoding.UTF8.GetString(eventArgs.Body.ToArray());
+    Console.WriteLine(body);
+};
+
+chanel.BasicConsume("hello", true, consumer);
+
 Console.ReadLine();
