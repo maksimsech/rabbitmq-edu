@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mng.RabbitMqEdu.Publisher", "Mng.RabbitMqEdu.Publisher\Mng.RabbitMqEdu.Publisher.csproj", "{B9F004EC-1662-4F08-8778-F6B5BE7C76D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mng.RabbiqMqEdu.Consumer", "Mng.RabbiqMqEdu.Consumer\Mng.RabbiqMqEdu.Consumer.csproj", "{B58024B0-B104-424F-8223-1EBF41598A13}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B9F004EC-1662-4F08-8778-F6B5BE7C76D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9F004EC-1662-4F08-8778-F6B5BE7C76D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9F004EC-1662-4F08-8778-F6B5BE7C76D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9F004EC-1662-4F08-8778-F6B5BE7C76D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B58024B0-B104-424F-8223-1EBF41598A13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B58024B0-B104-424F-8223-1EBF41598A13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B58024B0-B104-424F-8223-1EBF41598A13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B58024B0-B104-424F-8223-1EBF41598A13}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
